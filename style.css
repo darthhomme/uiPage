@@ -1,0 +1,50 @@
+.container{
+  background-color: yellow;
+}
+
+#header {
+ position:fixed;
+ top:0px;
+ left:0px;
+ right:0px;
+ height:20%;
+ overflow:hidden;
+ background-color: blue;
+}
+
+#left-sidebar {
+ position:fixed;
+ top:21%;
+ left:0px;
+ width:20%;
+ bottom:21%;
+ background-color: purple;
+}
+
+#right-sidebar {
+ position:fixed;
+ top:21%;
+ right:0px;
+ width:20%;
+ bottom:21%;
+ background-color: purple;
+}
+
+#footer {
+ position:fixed;
+ height:20%;
+ left:0px;
+ right:0px;
+ bottom:0px;
+ background-color: red;
+}
+
+#content {
+ position:fixed;
+ top:21%;
+ bottom:21%;
+ left:21%;
+ width:57%;
+ background-color: white;
+}
+div {display:block; border:1px solid black;}
