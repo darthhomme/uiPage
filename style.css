@@ -57,7 +57,7 @@ body {
 }
 
 /* This makes our browser resizing work just the way we want it to work. */
-@media only screen and (max-width: 768px) {
+/*@media only screen and (max-width: 768px) {
   body{
     background-color: #ffffff;
   }
@@ -97,5 +97,5 @@ body {
     background-color: #0000ff;
   }
 
-}
+}*/
 div {display:block; border:1px solid black;}
