@@ -1,8 +1,9 @@
 body {
   font-family: 'Roboto Condensed', sans-serif;
-  background-color: #000080;
+  background-color: #000080; /* Navy */
 }
 
+/* Header is awesome because it gives you places to put Home, login links and so forth.  */
 #header {
  position:fixed;
  top:0px;
@@ -14,6 +15,7 @@ body {
  background-color: #ffff99;
 }
 
+/* Notice that the position is fixed and so is the width. I don't really like the colors I've chosen, but they are noticeable for layout performance purposes */
 #left-sidebar {
  position:fixed;
  top:16%;
@@ -48,14 +50,16 @@ body {
  position:fixed;
  top:16%;
  bottom:16%;
- width: 58%;
+ width: 58%; /* Width of the content is subject to changes to browser window and not fixed like that of its sidebar siblings */
  left:21%;
  color: white;
  background-color: #ff99ff;
 }
+
+/* This makes our browser resizing work just the way we want it to work. */
 @media only screen and (max-width: 768px) {
   #left-sidebar{
-    display: none;
+    display: none; /* I'm telling the sidebars to disappear when the width of the browser gets below to a certain point and beyond*/
   }
   #right-sidebar{
     display: none;
