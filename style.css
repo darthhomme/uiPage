@@ -18,11 +18,6 @@ div {
  color: #ffffff;
  background-color: #ff0000;
 }
-.hodor{
-  top: 50%;
-  bottom: 50%;
-  text-align: center;
-}
 
 /* Notice that the position is fixed and so is the width. I don't really like the colors I've chosen, but they are noticeable for layout performance purposes */
 #left-sidebar {
