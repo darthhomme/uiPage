@@ -21,6 +21,20 @@
     </div>
 
     <div id="content">
+      Color: <input type="text" id="myInput" value=" ">
+
+        <p>Enter a color or hex code to change the background color of this content! Click the Submit button  .</p>
+
+        <button onclick="myFunction()" id="myButton">Submit</button>
+
+
+        <script>
+
+        function myFunction() {
+          var x = document.getElementById("myInput").value;
+          document.getElementById("content").style.backgroundColor = x;
+        }
+        </script>
 
     </div>
 

@@ -56,6 +56,14 @@ div {
  bottom:16%;
  width: 58%; /* Width of the content is subject to changes to browser window and not fixed like that of its sidebar siblings */
  left:21%;
- color: #000000;
+ color: #ffffff;
  background-color: #ff99ff;
+}
+
+#myButton {
+  color: #000000;
+}
+
+#myInput {
+  color: #000000;
 }
