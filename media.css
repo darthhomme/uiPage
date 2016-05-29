@@ -13,26 +13,28 @@
 
   #content {
     width: 100%;
-    left: 0%;
-    top: 16%;
-    bottom: 48%;
+    left: 0px;
+    right: 0px;
+    top: 15%;
+    bottom: 45%;
   }
 
   #left-sidebar{
     width: 100%;
-    top: 53%;
-    bottom: 32%;
+    top: 55%;
+    bottom: 30%;
   }
 
   #right-sidebar{
     width: 100%;
-    top: 69%;
-    bottom: 16%;
+    top: 70%;
+    bottom: 15%;
   }
 
   #footer {
     width: 100%;
     height: 15%;
+    top: 85%;
     bottom: 0px;
     color: #ffffff;
     background-color: #0000ff;

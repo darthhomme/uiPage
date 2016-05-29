@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto Condensed', sans-serif;
-  background-color: #000080; /* Navy */
+  background-color: #ffffff; /* Navy */
 }
 
 div {
@@ -16,7 +16,7 @@ div {
  height:15%;
  overflow:hidden;
  color: #000000;
- background-color: #ffff99;
+ background-color: #ff0000;
 }
 
 /* Notice that the position is fixed and so is the width. I don't really like the colors I've chosen, but they are noticeable for layout performance purposes */
@@ -47,7 +47,7 @@ div {
  right:0px;
  bottom:0px;
  color: #000000;
- background-color: #ffffff;
+ background-color: #0000ff;
 }
 
 #content {
@@ -56,6 +56,6 @@ div {
  bottom:16%;
  width: 58%; /* Width of the content is subject to changes to browser window and not fixed like that of its sidebar siblings */
  left:21%;
- color: white;
+ color: #000000;
  background-color: #ff99ff;
 }
